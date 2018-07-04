@@ -1,0 +1,24 @@
+{
+
+    "name": "artisangang/jwt",
+    "description": "PHP7 library for JSON Web Tokens (JWT).",
+    "keywords": ["jwt", "api", "token", "json"],
+	"license": "MIT",
+	"authors": [
+        {
+          "name": "Harcharan Singh",
+          "email": "artisangang@gmail.com"
+        }
+     ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "JWT\\": "src"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    }
+}
