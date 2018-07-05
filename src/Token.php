@@ -63,7 +63,9 @@ class Token
      */
     public function __construct(array $payload = [])
     {
-       $this->load($payload);
+        $this->setIssuedAt(time());
+        $this->setExpiry(time() + 60 * 60);
+        $this->load($payload);
     }
 
     /**
